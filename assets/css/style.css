@@ -461,3 +461,47 @@ body.zh h1, body.zh h2, body.zh h3, body.zh h4 {
   border-radius: 8px;
   margin-left: 8px;
 }
+
+/* ---------- generated illustrations ---------- */
+.hero-flex {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 52px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .hero-flex { grid-template-columns: 1fr; }
+}
+.hero-visual img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid var(--color-border-hover);
+  box-shadow: 0 24px 80px rgba(45, 212, 168, 0.12);
+}
+.platform-figure {
+  margin: 40px 0 0;
+}
+.platform-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+}
+.split-figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px;
+  align-items: center;
+  margin-top: 8px;
+}
+@media (max-width: 860px) {
+  .split-figure { grid-template-columns: 1fr; }
+}
+.split-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--color-border-hover);
+  box-shadow: 0 18px 60px rgba(45, 212, 168, 0.1);
+}
